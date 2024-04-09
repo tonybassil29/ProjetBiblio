@@ -1,0 +1,46 @@
+/* styles.css */
+
+.form-container {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 15px;
+}
+
+.form-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.form-button {
+    -fx-background-color: #4285f4;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+}
+
+.form-button:hover {
+    -fx-background-color: #3367d6;
+}
+
+.root {
+    -fx-font-size: 14px;
+}
+
+.alert {
+    -fx-background-color: #ffffff;
+}
+
+.alert .dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+}
+
+.alert .dialog-pane .content {
+    -fx-text-fill: #000000;
+}
+
+

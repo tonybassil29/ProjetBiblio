@@ -1,0 +1,25 @@
+
+/* Style pour la boîte VBox contenant les boutons */
+.vbox-container {
+    -fx-spacing: 15;
+    -fx-padding: 20;
+}
+
+/* Style pour les boutons */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4285f4; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-border-radius: 5px; /* Bord arrondi */
+    -fx-border-color: #388E3C; /* Couleur de la bordure */
+}
+
+.button:hover {
+    -fx-background-color: grey; /* Couleur de fond au survol */
+}
+
+.button:pressed {
+    -fx-background-color: #2E7D32; /* Couleur de fond lorsque pressé */
+}
